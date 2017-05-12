@@ -1,0 +1,292 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('upfeathers.png');
+	width: 100%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+
+
+
+.wrapper1{
+	margin: 0 auto 0 auto;
+	clear: both;
+}
+
+nav{
+	clear: both;
+	position: relative;
+	margin-bottom: 50px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 2px solid #cccccc;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 20px;	
+    padding-right: 200px;
+}
+
+li {
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+li a {
+    display: block;
+    color: #777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.name{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Arial';
+	font-size: 30px;
+	font-weight: bold;
+	padding: 30px;
+	float: left;
+	
+	left: 203px;
+	top: 0;
+	clear: both;
+	height:86px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.wrapper2{
+	width: 100%;
+	clear: both;
+	margin: 0 auto 0 auto;
+}
+
+.wrapper2:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+section{
+	background-color: #ffffff;
+	float: left;
+	clear: both;
+	width: 650px;
+	border: 1px solid #dddddd;
+	margin-left: 30px
+}
+
+h1{
+	color: #4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.p1{
+	padding: 30px;
+	line-height: 30px;
+	color: #777777;
+	position: relative;
+    display: inline-block;
+}
+
+.picture{
+	float: left;
+	margin-right: 20px;
+	width: 30%;
+}
+
+aside{
+	background-color: white;
+	float: left;
+	width: 270px;
+	margin-left: 40px;
+	padding: 30px;
+	text-align: center;
+	color: #4aaaa5;
+	border: 1px solid #dddddd;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.links{
+	margin-top: 20px;
+	padding: 10px;
+
+}
+
+
+img{
+	width: 30%;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	margin-top: 50px;
+	background-color: #666666;
+	color: white;
+	font-size: 12px;
+	padding: 30px;
+	border-top: 10px solid #4aaaa5;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;  
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+}
+
+.container {
+   
+    padding: 30px;
+}
+
+.name1{
+	color: #777777;
+}
+
+.email{
+	color: #777777;
+}
+
+.message{
+	color: #777777;
+}
+
+.main-section {
+   float: left;
+   width: 100%;
+   max-width: 650px;
+   padding: 30px;
+   background: #fff;
+   border: 1px solid #ddd;
+ }
+ 
+ .work {
+   position: relative;
+   float: left;
+   width: 46%;
+   margin: 20px 10px 20px;
+   
+ }
+ 
+ 
+ .work img {
+   width: 100%;
+   border: 0 none;
+   opacity: 0.8;
+ }
+ 
+ .work h2 {
+   position: absolute;
+   bottom: 20px;
+   width: 100%;
+   padding: 15px;
+   margin-bottom: 0;
+   font-weight: 300;
+   line-height: 30px;
+   color: #fff;
+   text-align: center;
+   background: #4aaaa5;
+   border-bottom: 0;
+ }
+
+@media screen and (max-width: 980px) {
+	.picture{
+		width: 100%;
+	}
+	section{
+		width: 50%;
+		margin-left: 70px;
+	}
+	.main-section{
+		width: 50%;
+	}
+	.work{
+		width: 95%;
+	}
+	.name{
+		left: 70px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.picture{
+		width: 50%;
+	}
+	section{
+		width: 75%;
+	}
+	.name{
+		left: 0px;
+	}
+	ul{
+		padding: 20px;
+	}
+
+	aside{
+		width: 75%;
+		margin: 30px 70px;
+		text-align: left;
+	}
+
+	.links{
+		width: 50%;
+	}
+
+@media screen and (max-width: 640px) {
+	.name{
+		position: "";
+		width: 100%;
+		text-align: center;
+	}
+	ul{
+		float: right;
+		width: 100%;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	section{
+		width: 95%;
+		margin-left: 15px;
+	}
+	.picture{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	aside{
+		width: 95%;
+		margin: 30px 15px;
+	}
+	li a{
+		padding: 14px 60px;
+	}
+}
+
+
