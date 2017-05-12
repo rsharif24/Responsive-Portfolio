@@ -162,10 +162,6 @@ input[type=submit] {
     border: none;
 }
 
-.container {
-   
-    padding: 30px;
-}
 
 .name1{
 	color: #777777;
@@ -181,8 +177,7 @@ input[type=submit] {
 
 .main-section {
    float: left;
-   width: 100%;
-   max-width: 650px;
+   width: 60%;
    padding: 30px;
    background: #fff;
    border: 1px solid #ddd;
@@ -225,14 +220,18 @@ input[type=submit] {
 		width: 50%;
 		margin-left: 70px;
 	}
-	.main-section{
-		width: 50%;
-	}
-	.work{
-		width: 95%;
-	}
 	.name{
 		left: 70px;
+	}
+	.main-section{
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	.work img{
+		width: 200%;
+	}
+	.work h2{
+		width: 200%;
 	}
 }
 
@@ -258,6 +257,21 @@ input[type=submit] {
 
 	.links{
 		width: 50%;
+	}
+
+	.work{
+		width: 45%;
+	}
+
+	.main-section{
+		width: 75%;
+	}
+	.work img{
+		width: 100%;
+	}
+
+	.work h2{
+		width: 100%;
 	}
 
 @media screen and (max-width: 640px) {
@@ -286,6 +300,12 @@ input[type=submit] {
 	}
 	li a{
 		padding: 14px 60px;
+	}
+	.work{
+		width: 95%;
+	}
+	.main-section{
+		width: 95%;
 	}
 }
 
